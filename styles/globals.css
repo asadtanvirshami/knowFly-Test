@@ -3,4 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* ======Custom CSS===== */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 600vh;
+  }
+  
+  main {
+    flex: 1; /* Or flex-grow: 1;*/
+  }
